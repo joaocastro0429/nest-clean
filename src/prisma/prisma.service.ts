@@ -1,3 +1,7 @@
+
+
+import * as dotenv from 'dotenv'
+dotenv.config();
 import { Injectable, OnModuleInit } from '@nestjs/common';
 import { PrismaClient } from '../generated/prisma/client'; 
 // Importar o adaptador correto para PostgreSQL
